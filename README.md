@@ -1,7 +1,16 @@
 # Adalov_Wireless_bridges
-This script will help you to enter the Admin control panel of Adalov Wireless bridges
+This script will help you to access the Admin control panel of Adalov Wireless bridges
 
-windows 7/8/10/11
+# windows 7/8/10/11
+
+
+With this script, you no longer need to manually adjust the network settings every time when you want to access the admin control panel. It automatically works for the network settings, and when finished, you can reset the network to the default settings automatically.
+
+.ping test 
+
+.Login to the control panel
+
+.Wi-Fi name and password
 
 ![toPC](https://github.com/hamadfayyad/Adalov_Wireless_bridges/assets/45442142/a01e7cf7-095e-41a1-bc45-6c9696bf2dc6)
 
