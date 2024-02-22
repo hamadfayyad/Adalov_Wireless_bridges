@@ -4,6 +4,7 @@ set COLOR_GREEN=[32m>nul
 set COLOR_BRIGHTGREEN=[1;32m>nul
 set COLOR_BRIGHTYELLOW=[1;33m>nul
 set COLOR_BG_GREEN=[42m>nul
+set COLOR_BG_YELLOW=[43m>nul
 set COLOR_RESET=[0m>nul
 
 
@@ -13,7 +14,7 @@ ECHO .
 ECHO    This script will help you to enter the Admin control panel of Adalov Wireless bridges
 ECHO    Set one of the CPE A-B switch to A, set it Master bridge and transmit the signal;
 ECHO    Set the others CPE A-B switch to B, set them Slave client and receive the signal;
-ECHO    Short press reset button to choose same channel for 3 bridges (Zone X);
+ECHO    Short press reset button to choose same channel for 3 bridges (Digital X);
 ECHO    Waiting them to pair successful.(Signal Indicators will light when paired)
 ECHO .
 ECHO    Connect CPE A-B to PC via Ethernet 
@@ -75,14 +76,14 @@ ECHO.
 ECHO.
 ECHO    Type the number below for which Bridge Mod A need to access default is 0:
 ECHO   _________________________________________________________________
-ECHO   %COLOR_BRIGHTGREEN%0. %COLOR_RESET% Bridge Mod A MAster ZONE 0    %COLOR_BRIGHTGREEN%1. %COLOR_RESET% Bridge Mod A MAster ZONE 1  
-ECHO   %COLOR_BRIGHTGREEN%2. %COLOR_RESET% Bridge Mod A MAster ZONE 2    %COLOR_BRIGHTGREEN%3. %COLOR_RESET% Bridge Mod A MAster ZONE 3  
-ECHO   %COLOR_BRIGHTGREEN%4. %COLOR_RESET% Bridge Mod A MAster ZONE 4    %COLOR_BRIGHTGREEN%5. %COLOR_RESET% Bridge Mod A MAster ZONE 5  
-ECHO   %COLOR_BRIGHTGREEN%6. %COLOR_RESET% Bridge Mod A MAster ZONE 6    %COLOR_BRIGHTGREEN%7. %COLOR_RESET% Bridge Mod A MAster ZONE 7  
-ECHO   %COLOR_BRIGHTGREEN%8. %COLOR_RESET% Bridge Mod A MAster ZONE 8    %COLOR_BRIGHTGREEN%9. %COLOR_RESET% Bridge Mod A MAster ZONE 9  
-ECHO   %COLOR_BRIGHTGREEN%10.%COLOR_RESET%  Bridge Mod A MAster ZONE A   %COLOR_BRIGHTGREEN%11.%COLOR_RESET%  Bridge Mod A MAster ZONE b 
-ECHO   %COLOR_BRIGHTGREEN%12.%COLOR_RESET%  Bridge Mod A MAster ZONE c   %COLOR_BRIGHTGREEN%13.%COLOR_RESET%  Bridge Mod A MAster ZONE d 
-ECHO   %COLOR_BRIGHTGREEN%14.%COLOR_RESET%  Bridge Mod A MAster ZONE E   %COLOR_BRIGHTGREEN%15.%COLOR_RESET%  Bridge Mod A MAster ZONE F 
+ECHO   %COLOR_BRIGHTGREEN%0. %COLOR_RESET% Bridge Mod A MAster Digital 0    %COLOR_BRIGHTGREEN%1. %COLOR_RESET% Bridge Mod A MAster Digital 1  
+ECHO   %COLOR_BRIGHTGREEN%2. %COLOR_RESET% Bridge Mod A MAster Digital 2    %COLOR_BRIGHTGREEN%3. %COLOR_RESET% Bridge Mod A MAster Digital 3  
+ECHO   %COLOR_BRIGHTGREEN%4. %COLOR_RESET% Bridge Mod A MAster Digital 4    %COLOR_BRIGHTGREEN%5. %COLOR_RESET% Bridge Mod A MAster Digital 5  
+ECHO   %COLOR_BRIGHTGREEN%6. %COLOR_RESET% Bridge Mod A MAster Digital 6    %COLOR_BRIGHTGREEN%7. %COLOR_RESET% Bridge Mod A MAster Digital 7  
+ECHO   %COLOR_BRIGHTGREEN%8. %COLOR_RESET% Bridge Mod A MAster Digital 8    %COLOR_BRIGHTGREEN%9. %COLOR_RESET% Bridge Mod A MAster Digital 9  
+ECHO   %COLOR_BRIGHTGREEN%10.%COLOR_RESET%  Bridge Mod A MAster Digital A   %COLOR_BRIGHTGREEN%11.%COLOR_RESET%  Bridge Mod A MAster Digital b 
+ECHO   %COLOR_BRIGHTGREEN%12.%COLOR_RESET%  Bridge Mod A MAster Digital c   %COLOR_BRIGHTGREEN%13.%COLOR_RESET%  Bridge Mod A MAster Digital d 
+ECHO   %COLOR_BRIGHTGREEN%14.%COLOR_RESET%  Bridge Mod A MAster Digital E   %COLOR_BRIGHTGREEN%15.%COLOR_RESET%  Bridge Mod A MAster Digital F 
 ECHO   _________________________________________________________________
 ECHO   99. Exit
 ECHO.
@@ -184,14 +185,14 @@ ECHO.
 ECHO.
 ECHO   Type the number below for which Bridge Mod B need to access default is 0:
 ECHO   _________________________________________________________________
-ECHO   %COLOR_BRIGHTGREEN%0. %COLOR_RESET% Bridge Mod B Slave ZONE 0    %COLOR_BRIGHTGREEN%1. %COLOR_RESET% Bridge Mod B Slave ZONE 1  
-ECHO   %COLOR_BRIGHTGREEN%2. %COLOR_RESET% Bridge Mod B Slave ZONE 2    %COLOR_BRIGHTGREEN%3. %COLOR_RESET% Bridge Mod B Slave ZONE 3  
-ECHO   %COLOR_BRIGHTGREEN%4. %COLOR_RESET% Bridge Mod B Slave ZONE 4    %COLOR_BRIGHTGREEN%5. %COLOR_RESET% Bridge Mod B Slave ZONE 5  
-ECHO   %COLOR_BRIGHTGREEN%6. %COLOR_RESET% Bridge Mod B Slave ZONE 6    %COLOR_BRIGHTGREEN%7. %COLOR_RESET% Bridge Mod B Slave ZONE 7  
-ECHO   %COLOR_BRIGHTGREEN%8. %COLOR_RESET% Bridge Mod B Slave ZONE 8    %COLOR_BRIGHTGREEN%9. %COLOR_RESET% Bridge Mod B Slave ZONE 9  
-ECHO   %COLOR_BRIGHTGREEN%10.%COLOR_RESET%  Bridge Mod B Slave ZONE A   %COLOR_BRIGHTGREEN%11.%COLOR_RESET%  Bridge Mod B Slave ZONE b 
-ECHO   %COLOR_BRIGHTGREEN%12.%COLOR_RESET%  Bridge Mod B Slave ZONE c   %COLOR_BRIGHTGREEN%13.%COLOR_RESET%  Bridge Mod B Slave ZONE d 
-ECHO   %COLOR_BRIGHTGREEN%14.%COLOR_RESET%  Bridge Mod B Slave ZONE E   %COLOR_BRIGHTGREEN%15.%COLOR_RESET%  Bridge Mod B Slave ZONE F 
+ECHO   %COLOR_BRIGHTGREEN%0. %COLOR_RESET% Bridge Mod B Slave Digital 0    %COLOR_BRIGHTGREEN%1. %COLOR_RESET% Bridge Mod B Slave Digital 1  
+ECHO   %COLOR_BRIGHTGREEN%2. %COLOR_RESET% Bridge Mod B Slave Digital 2    %COLOR_BRIGHTGREEN%3. %COLOR_RESET% Bridge Mod B Slave Digital 3  
+ECHO   %COLOR_BRIGHTGREEN%4. %COLOR_RESET% Bridge Mod B Slave Digital 4    %COLOR_BRIGHTGREEN%5. %COLOR_RESET% Bridge Mod B Slave Digital 5  
+ECHO   %COLOR_BRIGHTGREEN%6. %COLOR_RESET% Bridge Mod B Slave Digital 6    %COLOR_BRIGHTGREEN%7. %COLOR_RESET% Bridge Mod B Slave Digital 7  
+ECHO   %COLOR_BRIGHTGREEN%8. %COLOR_RESET% Bridge Mod B Slave Digital 8    %COLOR_BRIGHTGREEN%9. %COLOR_RESET% Bridge Mod B Slave Digital 9  
+ECHO   %COLOR_BRIGHTGREEN%10.%COLOR_RESET%  Bridge Mod B Slave Digital A   %COLOR_BRIGHTGREEN%11.%COLOR_RESET%  Bridge Mod B Slave Digital b 
+ECHO   %COLOR_BRIGHTGREEN%12.%COLOR_RESET%  Bridge Mod B Slave Digital c   %COLOR_BRIGHTGREEN%13.%COLOR_RESET%  Bridge Mod B Slave Digital d 
+ECHO   %COLOR_BRIGHTGREEN%14.%COLOR_RESET%  Bridge Mod B Slave Digital E   %COLOR_BRIGHTGREEN%15.%COLOR_RESET%  Bridge Mod B Slave Digital F 
 ECHO   _________________________________________________________________
 ECHO   99. Exit
 ECHO.
@@ -347,9 +348,12 @@ ECHO.
 
 
 :autosearch
-ECHO Obtaining IP Address automatically for %NIC[X]%
-netsh int ip reset "%NIC[X]%"
-goto bye
+    cls
+    call :header
+    ECHO Obtaining IP Address automatically for %NIC[X]%
+    netsh int ip reset "%NIC[X]%"
+    Pause
+    
 
 :ping
 cls
