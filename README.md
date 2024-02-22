@@ -1,6 +1,7 @@
 # Adalov_Wireless_bridges
 This script will help you to enter the Admin control panel of Adalov Wireless bridges
-windows 
+
+windows 7/8/10/11
 
 ![toPC](https://github.com/hamadfayyad/Adalov_Wireless_bridges/assets/45442142/a01e7cf7-095e-41a1-bc45-6c9696bf2dc6)
 
